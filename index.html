@@ -1,7 +1,7 @@
 
       <!DOCTYPE html>
       <html lang="ja">
-      <!-- ミョミョミョワァァーン --!>
+      <!-- ミョミョミョワァァーン -->
         <head>
           <meta charset="UTF-8" />
           <meta
@@ -13,324 +13,392 @@
           <link rel="icon" href="favicon.ico" sizes="any" type="image/x-icon">
           <link rel="apple-touch-icon" href="apple-touch-icon.png">
           <style>
-            body {
-              font-family: sans-serif;
-              background-color: #2c2f33;
-              color: #ffffff;
-              margin: 0;
-              padding: 1.5em;
-            }
-            h1 {
-              text-align: center;
-              border-bottom: 2px solid #7289da;
-              padding-bottom: 0.5em;
-            }
+  body {
+    font-family: sans-serif;
+    background-color: #2c2f33;
+    color: #ffffff;
+    margin: 0;
+    padding: 1.5em;
+  }
 
-            /* --- ここからがアコーディオン用のスタイル --- */
-            .stamp-accordion details {
-              background-color: #40444b;
-              border: 1px solid #555;
-              border-radius: 4px;
-              margin-bottom: 5px;
-            }
-            .stamp-accordion summary {
-              cursor: pointer;
-              padding: 0.5em 1em;
-              font-weight: bold;
-              outline: none; /* クリック時の青い枠線を消す */
-            }
-            .stamp-content {
-              padding: 1em;
-              text-align: center;
-              border-top: 1px solid #555;
-            }
-            .stamp-content img {
-              max-width: 100%;
-              height: 100px;
-              object-fit: contain;
-            }
-          </style>
+  h1 {
+    text-align: center;
+    border-bottom: 2px solid #7289da;
+    padding-bottom: 0.5em;
+  }
+
+  .description {
+    max-width: 900px;
+    margin: 0 auto 1.5em auto;
+    line-height: 1.7;
+  }
+
+  .stamp-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+    gap: 16px;
+    margin-top: 1.5em;
+  }
+
+  .stamp-card {
+    background-color: #40444b;
+    border: 1px solid #555;
+    border-radius: 8px;
+    padding: 12px;
+    text-align: center;
+    transition: transform 0.15s ease, box-shadow 0.15s ease;
+  }
+
+  .stamp-card:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+  }
+
+  .stamp-card img {
+    width: 100%;
+    height: 120px;
+    object-fit: contain;
+    border-radius: 6px;
+    background: rgba(255, 255, 255, 0.04);
+  }
+
+  .stamp-name {
+    margin-top: 10px;
+    font-weight: bold;
+    font-size: 0.95rem;
+    word-break: break-word;
+  }
+
+  .stamp-link {
+    color: inherit;
+    text-decoration: none;
+  }
+
+  .stamp-link:hover .stamp-name {
+    text-decoration: underline;
+  }
+
+  ul {
+    line-height: 1.7;
+  }
+</style>
         </head>
         <body>
-          <h1>神谷マリア /スタンプ一覧 (40個)</h1>
-          <p>
-            /スタンプ 投稿
-            で投稿できる公共スタンプの一覧です。通信量を節約するため、見たいスタンプだけを開く形式になっています。
-          </p>
+<h1>神谷マリア /スタンプ一覧 (39個)</h1>
 
-          <hr />
-          <!-- 水平線で区切ると、さらに見やすい -->
+<div class="description">
+  <p>
+    /スタンプ 投稿 で使える公共スタンプの一覧です。<br />
+    画像を一覧で見ながら、名前を確認できます。
+  </p>
 
-          <h3>使い方</h3>
-          <ul>
-            <li>
-              <strong>/スタンプ 投稿 [名前]</strong>:
-              スタンプを投稿します。名前を入力すると候補が表示されます。
-            </li>
-            <li>
-              <strong>/スタンプ 登録 [画像] [名前] [公開設定]</strong>:
-              新しいスタンプを登録します。
-              <ul>
-                <li>
-                  画像は <strong>320x320px</strong> 以下、<strong>512KB</strong>
-                  以下にしてください。
-                </li>
-                <li>
-                  登録は一人<strong>5件</strong>までです。（Mod/ILは50件まで）
-                </li>
-              </ul>
-            </li>
-          </ul>
+  <hr />
 
-          <h3>公開設定について</h3>
-          <p>
-            スタンプを「公開」にすると、サーバーの誰もが使えるようになり、この一覧にも掲載されます。<br />
-            <strong>PBW納品物</strong
-            >などを新規に登録する際は、各会社の利用規約をよくご確認の上、「外部利用ライセンス」などを取得した作品のみを公開設定にすることを、推奨します。
-          </p>
-          <div class="stamp-accordion">
-            
-    <details>
-      <summary>…お前今どんな心境なんにゃ（ハイゼンちゃん）</summary>
-      <div class="stamp-content">
-        <img src="https://asodrvsnwbehojyptghj.supabase.co/storage/v1/object/public/amayadori/stickers/373785633283506176/slot0_1763574302901.png" alt="…お前今どんな心境なんにゃ（ハイゼンちゃん）" loading="lazy">
-      </div>
-    </details>
-    <details>
-      <summary>…お前今どんな心境なんよ(ヨシゴイ)</summary>
-      <div class="stamp-content">
-        <img src="https://asodrvsnwbehojyptghj.supabase.co/storage/v1/object/public/amayadori/stickers/373785633283506176/slot0_1762013377855.png" alt="…お前今どんな心境なんよ(ヨシゴイ)" loading="lazy">
-      </div>
-    </details>
-    <details>
-      <summary>VSダークライ</summary>
-      <div class="stamp-content">
-        <img src="https://asodrvsnwbehojyptghj.supabase.co/storage/v1/object/public/amayadori/stickers/373785633283506176/slot0_1756098550004.png" alt="VSダークライ" loading="lazy">
-      </div>
-    </details>
-    <details>
-      <summary>あっ(トール・デーモンコア)</summary>
-      <div class="stamp-content">
-        <img src="https://asodrvsnwbehojyptghj.supabase.co/storage/v1/object/public/amayadori/stickers/373785633283506176/slot0_1762140772337.png" alt="あっ(トール・デーモンコア)" loading="lazy">
-      </div>
-    </details>
-    <details>
-      <summary>うれブランシュ(ブランシュ＝エルフレーム＝リアルト)</summary>
-      <div class="stamp-content">
-        <img src="https://asodrvsnwbehojyptghj.supabase.co/storage/v1/object/public/amayadori/stickers/373785633283506176/slot0_1756059966263.png" alt="うれブランシュ(ブランシュ＝エルフレーム＝リアルト)" loading="lazy">
-      </div>
-    </details>
-    <details>
-      <summary>エロスが足りない(ミーナ(PPP))</summary>
-      <div class="stamp-content">
-        <img src="https://asodrvsnwbehojyptghj.supabase.co/storage/v1/object/public/amayadori/stickers/373785633283506176/slot0_1760455242854.png" alt="エロスが足りない(ミーナ(PPP))" loading="lazy">
-      </div>
-    </details>
-    <details>
-      <summary>かわいいかわいいSD亜希ちゃん</summary>
-      <div class="stamp-content">
-        <img src="https://asodrvsnwbehojyptghj.supabase.co/storage/v1/object/public/amayadori/stickers/373785633283506176/slot0_1764649260967.png" alt="かわいいかわいいSD亜希ちゃん" loading="lazy">
-      </div>
-    </details>
-    <details>
-      <summary>きびブランシュ(ブランシュ＝エルフレーム＝リアルト)</summary>
-      <div class="stamp-content">
-        <img src="https://asodrvsnwbehojyptghj.supabase.co/storage/v1/object/public/amayadori/stickers/373785633283506176/slot0_1756065544566.png" alt="きびブランシュ(ブランシュ＝エルフレーム＝リアルト)" loading="lazy">
-      </div>
-    </details>
-    <details>
-      <summary>くやブランシュ(ブランシュ＝エルフレーム＝リアルト)</summary>
-      <div class="stamp-content">
-        <img src="https://asodrvsnwbehojyptghj.supabase.co/storage/v1/object/public/amayadori/stickers/373785633283506176/slot0_1756061236804.png" alt="くやブランシュ(ブランシュ＝エルフレーム＝リアルト)" loading="lazy">
-      </div>
-    </details>
-    <details>
-      <summary>ここは地下室ではありません(トール・妙見子)</summary>
-      <div class="stamp-content">
-        <img src="https://asodrvsnwbehojyptghj.supabase.co/storage/v1/object/public/amayadori/stickers/373785633283506176/slot0_1762141207357.png" alt="ここは地下室ではありません(トール・妙見子)" loading="lazy">
-      </div>
-    </details>
-    <details>
-      <summary>ここは平和な二星タワー</summary>
-      <div class="stamp-content">
-        <img src="https://asodrvsnwbehojyptghj.supabase.co/storage/v1/object/public/amayadori/stickers/373785633283506176/slot0_1755267137843.png" alt="ここは平和な二星タワー" loading="lazy">
-      </div>
-    </details>
-    <details>
-      <summary>これには流石のルエル・ベスティオもドン引き！</summary>
-      <div class="stamp-content">
-        <img src="https://asodrvsnwbehojyptghj.supabase.co/storage/v1/object/public/amayadori/stickers/373785633283506176/slot0_1762140530634.png" alt="これには流石のルエル・ベスティオもドン引き！" loading="lazy">
-      </div>
-    </details>
-    <details>
-      <summary>テスト光輝(リカ)</summary>
-      <div class="stamp-content">
-        <img src="https://asodrvsnwbehojyptghj.supabase.co/storage/v1/object/public/amayadori/stickers/373785633283506176/slot0_1753939046133.png" alt="テスト光輝(リカ)" loading="lazy">
-      </div>
-    </details>
-    <details>
-      <summary>なんですのこのお排泄物台は～～！！(リドニア・アルフェーネ)</summary>
-      <div class="stamp-content">
-        <img src="https://asodrvsnwbehojyptghj.supabase.co/storage/v1/object/public/amayadori/stickers/373785633283506176/slot0_1756098654823.png" alt="なんですのこのお排泄物台は～～！！(リドニア・アルフェーネ)" loading="lazy">
-      </div>
-    </details>
-    <details>
-      <summary>ニョボシ撫で</summary>
-      <div class="stamp-content">
-        <img src="https://assets.pbwlove.com/stickers/373785633283506176/1773119888920_373785633283506176_0_11eab93bea57.gif" alt="ニョボシ撫で" loading="lazy">
-      </div>
-    </details>
-    <details>
-      <summary>はいぜんちゃん(うぉんばっと)</summary>
-      <div class="stamp-content">
-        <img src="https://asodrvsnwbehojyptghj.supabase.co/storage/v1/object/public/amayadori/stickers/373785633283506176/slot0_1763574864837.png" alt="はいぜんちゃん(うぉんばっと)" loading="lazy">
-      </div>
-    </details>
-    <details>
-      <summary>ハッ(猫)</summary>
-      <div class="stamp-content">
-        <img src="https://asodrvsnwbehojyptghj.supabase.co/storage/v1/object/public/amayadori/stickers/373785633283506176/slot0_1763574369660.png" alt="ハッ(猫)" loading="lazy">
-      </div>
-    </details>
-    <details>
-      <summary>ハレンチ警察出動です！！(ブランシュ＝エルフレーム＝リアルト)</summary>
-      <div class="stamp-content">
-        <img src="https://asodrvsnwbehojyptghj.supabase.co/storage/v1/object/public/amayadori/stickers/373785633283506176/slot0_1756098806415.png" alt="ハレンチ警察出動です！！(ブランシュ＝エルフレーム＝リアルト)" loading="lazy">
-      </div>
-    </details>
-    <details>
-      <summary>プラチナカードでラプラス回せは全て爆死です</summary>
-      <div class="stamp-content">
-        <img src="https://asodrvsnwbehojyptghj.supabase.co/storage/v1/object/public/amayadori/stickers/373785633283506176/slot0_1756551422736.png" alt="プラチナカードでラプラス回せは全て爆死です" loading="lazy">
-      </div>
-    </details>
-    <details>
-      <summary>マジむかつく～～!! 地獄に落ちろ!!(ブランシュ＝エルフレーム＝リアルト)</summary>
-      <div class="stamp-content">
-        <img src="https://asodrvsnwbehojyptghj.supabase.co/storage/v1/object/public/amayadori/stickers/373785633283506176/slot0_1756099936881.png" alt="マジむかつく～～!! 地獄に落ちろ!!(ブランシュ＝エルフレーム＝リアルト)" loading="lazy">
-      </div>
-    </details>
-    <details>
-      <summary>またしても何も知らないたみこ</summary>
-      <div class="stamp-content">
-        <img src="https://asodrvsnwbehojyptghj.supabase.co/storage/v1/object/public/amayadori/stickers/373785633283506176/slot0_1759072277093.png" alt="またしても何も知らないたみこ" loading="lazy">
-      </div>
-    </details>
-    <details>
-      <summary>もしもしポリスメン？(ブランシュ＝エルフレーム＝リアルト)</summary>
-      <div class="stamp-content">
-        <img src="https://asodrvsnwbehojyptghj.supabase.co/storage/v1/object/public/amayadori/stickers/373785633283506176/slot0_1756100875672.png" alt="もしもしポリスメン？(ブランシュ＝エルフレーム＝リアルト)" loading="lazy">
-      </div>
-    </details>
-    <details>
-      <summary>ものすごいんだねぇ（尊師猫）</summary>
-      <div class="stamp-content">
-        <img src="https://asodrvsnwbehojyptghj.supabase.co/storage/v1/object/public/amayadori/stickers/373785633283506176/slot0_1761893928471.png" alt="ものすごいんだねぇ（尊師猫）" loading="lazy">
-      </div>
-    </details>
-    <details>
-      <summary>やらしい雰囲気に強制的にするリカ・サキュバス</summary>
-      <div class="stamp-content">
-        <img src="https://asodrvsnwbehojyptghj.supabase.co/storage/v1/object/public/amayadori/stickers/373785633283506176/slot0_1759072231532.png" alt="やらしい雰囲気に強制的にするリカ・サキュバス" loading="lazy">
-      </div>
-    </details>
-    <details>
-      <summary>やりやがったですよ(杉本ブランシュ)</summary>
-      <div class="stamp-content">
-        <img src="https://asodrvsnwbehojyptghj.supabase.co/storage/v1/object/public/amayadori/stickers/373785633283506176/slot0_1761894142596.png" alt="やりやがったですよ(杉本ブランシュ)" loading="lazy">
-      </div>
-    </details>
-    <details>
-      <summary>ゆっくりしていってね！！！（リカ・サキュバス/クーア・ミューゼル)</summary>
-      <div class="stamp-content">
-        <img src="https://asodrvsnwbehojyptghj.supabase.co/storage/v1/object/public/amayadori/stickers/373785633283506176/slot0_1756098286114.png" alt="ゆっくりしていってね！！！（リカ・サキュバス/クーア・ミューゼル)" loading="lazy">
-      </div>
-    </details>
-    <details>
-      <summary>リクシナに同行する花京院</summary>
-      <div class="stamp-content">
-        <img src="https://asodrvsnwbehojyptghj.supabase.co/storage/v1/object/public/amayadori/stickers/373785633283506176/slot0_1756098380584.png" alt="リクシナに同行する花京院" loading="lazy">
-      </div>
-    </details>
-    <details>
-      <summary>わかリリーベル(リリーベル・リボングラッセ)</summary>
-      <div class="stamp-content">
-        <img src="https://asodrvsnwbehojyptghj.supabase.co/storage/v1/object/public/amayadori/stickers/373785633283506176/slot0_1756097735780.png" alt="わかリリーベル(リリーベル・リボングラッセ)" loading="lazy">
-      </div>
-    </details>
-    <details>
-      <summary>ワッショーイ（トール＆リカ）</summary>
-      <div class="stamp-content">
-        <img src="https://asodrvsnwbehojyptghj.supabase.co/storage/v1/object/public/amayadori/stickers/373785633283506176/slot0_1762140610038.png" alt="ワッショーイ（トール＆リカ）" loading="lazy">
-      </div>
-    </details>
-    <details>
-      <summary>二星タワー爆破</summary>
-      <div class="stamp-content">
-        <img src="https://asodrvsnwbehojyptghj.supabase.co/storage/v1/object/public/amayadori/stickers/373785633283506176/slot0_1755267158973.png" alt="二星タワー爆破" loading="lazy">
-      </div>
-    </details>
-    <details>
-      <summary>今よ！そうだねをタップしてPBW徳を積みなさい！（ｷｭﾋﾟｰﾝ）</summary>
-      <div class="stamp-content">
-        <img src="https://asodrvsnwbehojyptghj.supabase.co/storage/v1/object/public/amayadori/stickers/373785633283506176/slot0_1766916685812.png" alt="今よ！そうだねをタップしてPBW徳を積みなさい！（ｷｭﾋﾟｰﾝ）" loading="lazy">
-      </div>
-    </details>
-    <details>
-      <summary>寝ろ！お嬢様～ふかふかのオフトゥヌス編～(フロラ・イーリス・ハスクヴァーナ)</summary>
-      <div class="stamp-content">
-        <img src="https://asodrvsnwbehojyptghj.supabase.co/storage/v1/object/public/amayadori/stickers/373785633283506176/slot0_1762140858142.png" alt="寝ろ！お嬢様～ふかふかのオフトゥヌス編～(フロラ・イーリス・ハスクヴァーナ)" loading="lazy">
-      </div>
-    </details>
-    <details>
-      <summary>愉快(トール・デーモンコア)</summary>
-      <div class="stamp-content">
-        <img src="https://asodrvsnwbehojyptghj.supabase.co/storage/v1/object/public/amayadori/stickers/373785633283506176/slot0_1762140721234.png" alt="愉快(トール・デーモンコア)" loading="lazy">
-      </div>
-    </details>
-    <details>
-      <summary>戦え…戦え…(ベアトリーチェ カルミーナ(簀巻き))</summary>
-      <div class="stamp-content">
-        <img src="https://asodrvsnwbehojyptghj.supabase.co/storage/v1/object/public/amayadori/stickers/373785633283506176/slot0_1756099813604.png" alt="戦え…戦え…(ベアトリーチェ カルミーナ(簀巻き))" loading="lazy">
-      </div>
-    </details>
-    <details>
-      <summary>白紙る奴は不運と踊っちまったんですよ…(トール＝アシェンプテル)</summary>
-      <div class="stamp-content">
-        <img src="https://asodrvsnwbehojyptghj.supabase.co/storage/v1/object/public/amayadori/stickers/373785633283506176/slot0_1762141047169.png" alt="白紙る奴は不運と踊っちまったんですよ…(トール＝アシェンプテル)" loading="lazy">
-      </div>
-    </details>
-    <details>
-      <summary>祭りと聞いて我慢できずに駆け付けたクーア・Ｍ・サキュバス</summary>
-      <div class="stamp-content">
-        <img src="https://asodrvsnwbehojyptghj.supabase.co/storage/v1/object/public/amayadori/stickers/373785633283506176/slot0_1756098199523.png" alt="祭りと聞いて我慢できずに駆け付けたクーア・Ｍ・サキュバス" loading="lazy">
-      </div>
-    </details>
-    <details>
-      <summary>許せレナ(許セレナ)</summary>
-      <div class="stamp-content">
-        <img src="https://asodrvsnwbehojyptghj.supabase.co/storage/v1/object/public/amayadori/stickers/373785633283506176/slot0_1770648063196.png" alt="許せレナ(許セレナ)" loading="lazy">
-      </div>
-    </details>
-    <details>
-      <summary>諦めたらそこで試合終了ですよ(リリーベル・リボングラッセ)</summary>
-      <div class="stamp-content">
-        <img src="https://asodrvsnwbehojyptghj.supabase.co/storage/v1/object/public/amayadori/stickers/373785633283506176/slot0_1756098080909.png" alt="諦めたらそこで試合終了ですよ(リリーベル・リボングラッセ)" loading="lazy">
-      </div>
-    </details>
-    <details>
-      <summary>闇市倍プッシュお嬢様（フロラ）</summary>
-      <div class="stamp-content">
-        <img src="https://asodrvsnwbehojyptghj.supabase.co/storage/v1/object/public/amayadori/stickers/373785633283506176/slot0_1763574149815.png" alt="闇市倍プッシュお嬢様（フロラ）" loading="lazy">
-      </div>
-    </details>
-    <details>
-      <summary>駄目だわ！</summary>
-      <div class="stamp-content">
-        <img src="https://asodrvsnwbehojyptghj.supabase.co/storage/v1/object/public/amayadori/stickers/473440572372156425/slot0_1760093166914.png" alt="駄目だわ！" loading="lazy">
-      </div>
-    </details>
+  <h3>使い方</h3>
+  <ul>
+    <li>
+      <strong>/スタンプ 投稿 [名前]</strong>:
+      スタンプを投稿します。名前を入力すると候補が表示されます。
+    </li>
+    <li>
+      <strong>/スタンプ 登録 [画像] [名前] [公開設定]</strong>:
+      新しいスタンプを登録します。
+      <ul>
+        <li>
+          画像は <strong>800x800px</strong> 以下、<strong>10MB</strong>
+          以下にしてください。
+        </li>
+        <li>
+          登録は一人<strong>50件</strong>までです。（Mod/ILは255件まで）
+        </li>
+      </ul>
+    </li>
+  </ul>
+
+  <h3>公開設定について</h3>
+  <p>
+    スタンプを「公開」にすると、サーバーの誰もが使えるようになり、この一覧にも掲載されます。<br />
+    <strong>PBW納品物</strong> などを新規に登録する際は、各会社の利用規約をよくご確認の上、
+    「外部利用ライセンス」などを取得した作品のみを公開設定にすることを推奨します。
+  </p>
+</div>
+
+<div class="stamp-grid">
+  
+        <a class="stamp-link" href="https://assets.pbwlove.com/stickers/373785633283506176/1773122637475_373785633283506176_0_a3e97471a33d.png" target="_blank" rel="noopener noreferrer">
+          <div class="stamp-card">
+            <img src="https://assets.pbwlove.com/stickers/373785633283506176/1773122637475_373785633283506176_0_a3e97471a33d.png" alt="…お前今どんな心境なんにゃ（ハイゼンちゃん）" loading="lazy">
+            <div class="stamp-name">…お前今どんな心境なんにゃ（ハイゼンちゃん）</div>
           </div>
+        </a>
+      
+        <a class="stamp-link" href="https://assets.pbwlove.com/stickers/373785633283506176/1773122634441_373785633283506176_0_03fac2176263.png" target="_blank" rel="noopener noreferrer">
+          <div class="stamp-card">
+            <img src="https://assets.pbwlove.com/stickers/373785633283506176/1773122634441_373785633283506176_0_03fac2176263.png" alt="…お前今どんな心境なんよ(ヨシゴイ)" loading="lazy">
+            <div class="stamp-name">…お前今どんな心境なんよ(ヨシゴイ)</div>
+          </div>
+        </a>
+      
+        <a class="stamp-link" href="https://assets.pbwlove.com/stickers/373785633283506176/1773122629846_373785633283506176_0_cd0a81b361a8.png" target="_blank" rel="noopener noreferrer">
+          <div class="stamp-card">
+            <img src="https://assets.pbwlove.com/stickers/373785633283506176/1773122629846_373785633283506176_0_cd0a81b361a8.png" alt="VSダークライ" loading="lazy">
+            <div class="stamp-name">VSダークライ</div>
+          </div>
+        </a>
+      
+        <a class="stamp-link" href="https://assets.pbwlove.com/stickers/373785633283506176/1773122635747_373785633283506176_0_c8821deac659.png" target="_blank" rel="noopener noreferrer">
+          <div class="stamp-card">
+            <img src="https://assets.pbwlove.com/stickers/373785633283506176/1773122635747_373785633283506176_0_c8821deac659.png" alt="あっ(トール・デーモンコア)" loading="lazy">
+            <div class="stamp-name">あっ(トール・デーモンコア)</div>
+          </div>
+        </a>
+      
+        <a class="stamp-link" href="https://assets.pbwlove.com/stickers/373785633283506176/1773122627220_373785633283506176_0_45d4d2ff67dc.png" target="_blank" rel="noopener noreferrer">
+          <div class="stamp-card">
+            <img src="https://assets.pbwlove.com/stickers/373785633283506176/1773122627220_373785633283506176_0_45d4d2ff67dc.png" alt="うれブランシュ(ブランシュ＝エルフレーム＝リアルト)" loading="lazy">
+            <div class="stamp-name">うれブランシュ(ブランシュ＝エルフレーム＝リアルト)</div>
+          </div>
+        </a>
+      
+        <a class="stamp-link" href="https://assets.pbwlove.com/stickers/373785633283506176/1773122633324_373785633283506176_0_437c4d7e5db8.png" target="_blank" rel="noopener noreferrer">
+          <div class="stamp-card">
+            <img src="https://assets.pbwlove.com/stickers/373785633283506176/1773122633324_373785633283506176_0_437c4d7e5db8.png" alt="エロスが足りない(ミーナ(PPP))" loading="lazy">
+            <div class="stamp-name">エロスが足りない(ミーナ(PPP))</div>
+          </div>
+        </a>
+      
+        <a class="stamp-link" href="https://assets.pbwlove.com/stickers/373785633283506176/1773122638384_373785633283506176_0_5cafa1140a89.png" target="_blank" rel="noopener noreferrer">
+          <div class="stamp-card">
+            <img src="https://assets.pbwlove.com/stickers/373785633283506176/1773122638384_373785633283506176_0_5cafa1140a89.png" alt="かわいいかわいいSD亜希ちゃん" loading="lazy">
+            <div class="stamp-name">かわいいかわいいSD亜希ちゃん</div>
+          </div>
+        </a>
+      
+        <a class="stamp-link" href="https://assets.pbwlove.com/stickers/373785633283506176/1773122627944_373785633283506176_0_743f3fa75e4e.png" target="_blank" rel="noopener noreferrer">
+          <div class="stamp-card">
+            <img src="https://assets.pbwlove.com/stickers/373785633283506176/1773122627944_373785633283506176_0_743f3fa75e4e.png" alt="きびブランシュ(ブランシュ＝エルフレーム＝リアルト)" loading="lazy">
+            <div class="stamp-name">きびブランシュ(ブランシュ＝エルフレーム＝リアルト)</div>
+          </div>
+        </a>
+      
+        <a class="stamp-link" href="https://assets.pbwlove.com/stickers/373785633283506176/1773122627534_373785633283506176_0_a70ccede8f64.png" target="_blank" rel="noopener noreferrer">
+          <div class="stamp-card">
+            <img src="https://assets.pbwlove.com/stickers/373785633283506176/1773122627534_373785633283506176_0_a70ccede8f64.png" alt="くやブランシュ(ブランシュ＝エルフレーム＝リアルト)" loading="lazy">
+            <div class="stamp-name">くやブランシュ(ブランシュ＝エルフレーム＝リアルト)</div>
+          </div>
+        </a>
+      
+        <a class="stamp-link" href="https://assets.pbwlove.com/stickers/373785633283506176/1773122636775_373785633283506176_0_6f8d2b9ee331.png" target="_blank" rel="noopener noreferrer">
+          <div class="stamp-card">
+            <img src="https://assets.pbwlove.com/stickers/373785633283506176/1773122636775_373785633283506176_0_6f8d2b9ee331.png" alt="ここは地下室ではありません(トール・妙見子)" loading="lazy">
+            <div class="stamp-name">ここは地下室ではありません(トール・妙見子)</div>
+          </div>
+        </a>
+      
+        <a class="stamp-link" href="https://assets.pbwlove.com/stickers/373785633283506176/1773122626513_373785633283506176_0_d9ffed201a8f.png" target="_blank" rel="noopener noreferrer">
+          <div class="stamp-card">
+            <img src="https://assets.pbwlove.com/stickers/373785633283506176/1773122626513_373785633283506176_0_d9ffed201a8f.png" alt="ここは平和な二星タワー" loading="lazy">
+            <div class="stamp-name">ここは平和な二星タワー</div>
+          </div>
+        </a>
+      
+        <a class="stamp-link" href="https://assets.pbwlove.com/stickers/373785633283506176/1773122634747_373785633283506176_0_340c7028720d.png" target="_blank" rel="noopener noreferrer">
+          <div class="stamp-card">
+            <img src="https://assets.pbwlove.com/stickers/373785633283506176/1773122634747_373785633283506176_0_340c7028720d.png" alt="これには流石のルエル・ベスティオもドン引き！" loading="lazy">
+            <div class="stamp-name">これには流石のルエル・ベスティオもドン引き！</div>
+          </div>
+        </a>
+      
+        <a class="stamp-link" href="https://assets.pbwlove.com/stickers/373785633283506176/1773122626201_373785633283506176_0_077c6beb3b19.png" target="_blank" rel="noopener noreferrer">
+          <div class="stamp-card">
+            <img src="https://assets.pbwlove.com/stickers/373785633283506176/1773122626201_373785633283506176_0_077c6beb3b19.png" alt="テスト光輝(リカ)" loading="lazy">
+            <div class="stamp-name">テスト光輝(リカ)</div>
+          </div>
+        </a>
+      
+        <a class="stamp-link" href="https://assets.pbwlove.com/stickers/373785633283506176/1773122630149_373785633283506176_0_2076b5ad3ccc.png" target="_blank" rel="noopener noreferrer">
+          <div class="stamp-card">
+            <img src="https://assets.pbwlove.com/stickers/373785633283506176/1773122630149_373785633283506176_0_2076b5ad3ccc.png" alt="なんですのこのお排泄物台は～～！！(リドニア・アルフェーネ)" loading="lazy">
+            <div class="stamp-name">なんですのこのお排泄物台は～～！！(リドニア・アルフェーネ)</div>
+          </div>
+        </a>
+      
+        <a class="stamp-link" href="https://assets.pbwlove.com/stickers/373785633283506176/1773122638088_373785633283506176_0_43bcf76ba6dc.png" target="_blank" rel="noopener noreferrer">
+          <div class="stamp-card">
+            <img src="https://assets.pbwlove.com/stickers/373785633283506176/1773122638088_373785633283506176_0_43bcf76ba6dc.png" alt="はいぜんちゃん(うぉんばっと)" loading="lazy">
+            <div class="stamp-name">はいぜんちゃん(うぉんばっと)</div>
+          </div>
+        </a>
+      
+        <a class="stamp-link" href="https://assets.pbwlove.com/stickers/373785633283506176/1773122637784_373785633283506176_0_98ede2d55c1d.png" target="_blank" rel="noopener noreferrer">
+          <div class="stamp-card">
+            <img src="https://assets.pbwlove.com/stickers/373785633283506176/1773122637784_373785633283506176_0_98ede2d55c1d.png" alt="ハッ(猫)" loading="lazy">
+            <div class="stamp-name">ハッ(猫)</div>
+          </div>
+        </a>
+      
+        <a class="stamp-link" href="https://assets.pbwlove.com/stickers/373785633283506176/1773122630456_373785633283506176_0_735e9e92b576.png" target="_blank" rel="noopener noreferrer">
+          <div class="stamp-card">
+            <img src="https://assets.pbwlove.com/stickers/373785633283506176/1773122630456_373785633283506176_0_735e9e92b576.png" alt="ハレンチ警察出動です！！(ブランシュ＝エルフレーム＝リアルト)" loading="lazy">
+            <div class="stamp-name">ハレンチ警察出動です！！(ブランシュ＝エルフレーム＝リアルト)</div>
+          </div>
+        </a>
+      
+        <a class="stamp-link" href="https://assets.pbwlove.com/stickers/373785633283506176/1773122631770_373785633283506176_0_56778b966dfe.png" target="_blank" rel="noopener noreferrer">
+          <div class="stamp-card">
+            <img src="https://assets.pbwlove.com/stickers/373785633283506176/1773122631770_373785633283506176_0_56778b966dfe.png" alt="プラチナカードでラプラス回せは全て爆死です" loading="lazy">
+            <div class="stamp-name">プラチナカードでラプラス回せは全て爆死です</div>
+          </div>
+        </a>
+      
+        <a class="stamp-link" href="https://assets.pbwlove.com/stickers/373785633283506176/1773122631061_373785633283506176_0_444635796034.png" target="_blank" rel="noopener noreferrer">
+          <div class="stamp-card">
+            <img src="https://assets.pbwlove.com/stickers/373785633283506176/1773122631061_373785633283506176_0_444635796034.png" alt="マジむかつく～～!! 地獄に落ちろ!!(ブランシュ＝エルフレーム＝リアルト)" loading="lazy">
+            <div class="stamp-name">マジむかつく～～!! 地獄に落ちろ!!(ブランシュ＝エルフレーム＝リアルト)</div>
+          </div>
+        </a>
+      
+        <a class="stamp-link" href="https://assets.pbwlove.com/stickers/373785633283506176/1773122632378_373785633283506176_0_e6258a0c4fb7.png" target="_blank" rel="noopener noreferrer">
+          <div class="stamp-card">
+            <img src="https://assets.pbwlove.com/stickers/373785633283506176/1773122632378_373785633283506176_0_e6258a0c4fb7.png" alt="またしても何も知らないたみこ" loading="lazy">
+            <div class="stamp-name">またしても何も知らないたみこ</div>
+          </div>
+        </a>
+      
+        <a class="stamp-link" href="https://assets.pbwlove.com/stickers/373785633283506176/1773122631360_373785633283506176_0_c7ead523ffcb.png" target="_blank" rel="noopener noreferrer">
+          <div class="stamp-card">
+            <img src="https://assets.pbwlove.com/stickers/373785633283506176/1773122631360_373785633283506176_0_c7ead523ffcb.png" alt="もしもしポリスメン？(ブランシュ＝エルフレーム＝リアルト)" loading="lazy">
+            <div class="stamp-name">もしもしポリスメン？(ブランシュ＝エルフレーム＝リアルト)</div>
+          </div>
+        </a>
+      
+        <a class="stamp-link" href="https://assets.pbwlove.com/stickers/373785633283506176/1773122633755_373785633283506176_0_088a34086cb6.png" target="_blank" rel="noopener noreferrer">
+          <div class="stamp-card">
+            <img src="https://assets.pbwlove.com/stickers/373785633283506176/1773122633755_373785633283506176_0_088a34086cb6.png" alt="ものすごいんだねぇ（尊師猫）" loading="lazy">
+            <div class="stamp-name">ものすごいんだねぇ（尊師猫）</div>
+          </div>
+        </a>
+      
+        <a class="stamp-link" href="https://assets.pbwlove.com/stickers/373785633283506176/1773122632078_373785633283506176_0_9c9f8fe1215c.png" target="_blank" rel="noopener noreferrer">
+          <div class="stamp-card">
+            <img src="https://assets.pbwlove.com/stickers/373785633283506176/1773122632078_373785633283506176_0_9c9f8fe1215c.png" alt="やらしい雰囲気に強制的にするリカ・サキュバス" loading="lazy">
+            <div class="stamp-name">やらしい雰囲気に強制的にするリカ・サキュバス</div>
+          </div>
+        </a>
+      
+        <a class="stamp-link" href="https://assets.pbwlove.com/stickers/373785633283506176/1773122634148_373785633283506176_0_80cb3526bd36.png" target="_blank" rel="noopener noreferrer">
+          <div class="stamp-card">
+            <img src="https://assets.pbwlove.com/stickers/373785633283506176/1773122634148_373785633283506176_0_80cb3526bd36.png" alt="やりやがったですよ(杉本ブランシュ)" loading="lazy">
+            <div class="stamp-name">やりやがったですよ(杉本ブランシュ)</div>
+          </div>
+        </a>
+      
+        <a class="stamp-link" href="https://assets.pbwlove.com/stickers/373785633283506176/1773122629149_373785633283506176_0_ed0d2a14b30e.png" target="_blank" rel="noopener noreferrer">
+          <div class="stamp-card">
+            <img src="https://assets.pbwlove.com/stickers/373785633283506176/1773122629149_373785633283506176_0_ed0d2a14b30e.png" alt="ゆっくりしていってね！！！（リカ・サキュバス/クーア・ミューゼル)" loading="lazy">
+            <div class="stamp-name">ゆっくりしていってね！！！（リカ・サキュバス/クーア・ミューゼル)</div>
+          </div>
+        </a>
+      
+        <a class="stamp-link" href="https://assets.pbwlove.com/stickers/373785633283506176/1773122629545_373785633283506176_0_4970fca86db6.png" target="_blank" rel="noopener noreferrer">
+          <div class="stamp-card">
+            <img src="https://assets.pbwlove.com/stickers/373785633283506176/1773122629545_373785633283506176_0_4970fca86db6.png" alt="リクシナに同行する花京院" loading="lazy">
+            <div class="stamp-name">リクシナに同行する花京院</div>
+          </div>
+        </a>
+      
+        <a class="stamp-link" href="https://assets.pbwlove.com/stickers/373785633283506176/1773122628247_373785633283506176_0_124a9380ecf2.png" target="_blank" rel="noopener noreferrer">
+          <div class="stamp-card">
+            <img src="https://assets.pbwlove.com/stickers/373785633283506176/1773122628247_373785633283506176_0_124a9380ecf2.png" alt="わかリリーベル(リリーベル・リボングラッセ)" loading="lazy">
+            <div class="stamp-name">わかリリーベル(リリーベル・リボングラッセ)</div>
+          </div>
+        </a>
+      
+        <a class="stamp-link" href="https://assets.pbwlove.com/stickers/373785633283506176/1773122635051_373785633283506176_0_d8e616ad9445.png" target="_blank" rel="noopener noreferrer">
+          <div class="stamp-card">
+            <img src="https://assets.pbwlove.com/stickers/373785633283506176/1773122635051_373785633283506176_0_d8e616ad9445.png" alt="ワッショーイ（トール＆リカ）" loading="lazy">
+            <div class="stamp-name">ワッショーイ（トール＆リカ）</div>
+          </div>
+        </a>
+      
+        <a class="stamp-link" href="https://assets.pbwlove.com/stickers/373785633283506176/1773122626910_373785633283506176_0_578d6eec60f7.png" target="_blank" rel="noopener noreferrer">
+          <div class="stamp-card">
+            <img src="https://assets.pbwlove.com/stickers/373785633283506176/1773122626910_373785633283506176_0_578d6eec60f7.png" alt="二星タワー爆破" loading="lazy">
+            <div class="stamp-name">二星タワー爆破</div>
+          </div>
+        </a>
+      
+        <a class="stamp-link" href="https://assets.pbwlove.com/stickers/373785633283506176/1773122638698_373785633283506176_0_dcef36e1771c.png" target="_blank" rel="noopener noreferrer">
+          <div class="stamp-card">
+            <img src="https://assets.pbwlove.com/stickers/373785633283506176/1773122638698_373785633283506176_0_dcef36e1771c.png" alt="今よ！そうだねをタップしてPBW徳を積みなさい！（ｷｭﾋﾟｰﾝ）" loading="lazy">
+            <div class="stamp-name">今よ！そうだねをタップしてPBW徳を積みなさい！（ｷｭﾋﾟｰﾝ）</div>
+          </div>
+        </a>
+      
+        <a class="stamp-link" href="https://assets.pbwlove.com/stickers/373785633283506176/1773122636160_373785633283506176_0_5d3b0d814530.png" target="_blank" rel="noopener noreferrer">
+          <div class="stamp-card">
+            <img src="https://assets.pbwlove.com/stickers/373785633283506176/1773122636160_373785633283506176_0_5d3b0d814530.png" alt="寝ろ！お嬢様～ふかふかのオフトゥヌス編～(フロラ・イーリス・ハスクヴァーナ)" loading="lazy">
+            <div class="stamp-name">寝ろ！お嬢様～ふかふかのオフトゥヌス編～(フロラ・イーリス・ハスクヴァーナ)</div>
+          </div>
+        </a>
+      
+        <a class="stamp-link" href="https://assets.pbwlove.com/stickers/373785633283506176/1773122635451_373785633283506176_0_dc9085a9dedd.png" target="_blank" rel="noopener noreferrer">
+          <div class="stamp-card">
+            <img src="https://assets.pbwlove.com/stickers/373785633283506176/1773122635451_373785633283506176_0_dc9085a9dedd.png" alt="愉快(トール・デーモンコア)" loading="lazy">
+            <div class="stamp-name">愉快(トール・デーモンコア)</div>
+          </div>
+        </a>
+      
+        <a class="stamp-link" href="https://assets.pbwlove.com/stickers/373785633283506176/1773122630750_373785633283506176_0_0335b6f6fe20.png" target="_blank" rel="noopener noreferrer">
+          <div class="stamp-card">
+            <img src="https://assets.pbwlove.com/stickers/373785633283506176/1773122630750_373785633283506176_0_0335b6f6fe20.png" alt="戦え…戦え…(ベアトリーチェ カルミーナ(簀巻き))" loading="lazy">
+            <div class="stamp-name">戦え…戦え…(ベアトリーチェ カルミーナ(簀巻き))</div>
+          </div>
+        </a>
+      
+        <a class="stamp-link" href="https://assets.pbwlove.com/stickers/373785633283506176/1773122636469_373785633283506176_0_4abeb850f6f8.png" target="_blank" rel="noopener noreferrer">
+          <div class="stamp-card">
+            <img src="https://assets.pbwlove.com/stickers/373785633283506176/1773122636469_373785633283506176_0_4abeb850f6f8.png" alt="白紙る奴は不運と踊っちまったんですよ…(トール＝アシェンプテル)" loading="lazy">
+            <div class="stamp-name">白紙る奴は不運と踊っちまったんですよ…(トール＝アシェンプテル)</div>
+          </div>
+        </a>
+      
+        <a class="stamp-link" href="https://assets.pbwlove.com/stickers/373785633283506176/1773122628850_373785633283506176_0_3f60e3b610da.png" target="_blank" rel="noopener noreferrer">
+          <div class="stamp-card">
+            <img src="https://assets.pbwlove.com/stickers/373785633283506176/1773122628850_373785633283506176_0_3f60e3b610da.png" alt="祭りと聞いて我慢できずに駆け付けたクーア・Ｍ・サキュバス" loading="lazy">
+            <div class="stamp-name">祭りと聞いて我慢できずに駆け付けたクーア・Ｍ・サキュバス</div>
+          </div>
+        </a>
+      
+        <a class="stamp-link" href="https://assets.pbwlove.com/stickers/373785633283506176/1773122638993_373785633283506176_0_dbd6b7fbacc6.png" target="_blank" rel="noopener noreferrer">
+          <div class="stamp-card">
+            <img src="https://assets.pbwlove.com/stickers/373785633283506176/1773122638993_373785633283506176_0_dbd6b7fbacc6.png" alt="許せレナ(許セレナ)" loading="lazy">
+            <div class="stamp-name">許せレナ(許セレナ)</div>
+          </div>
+        </a>
+      
+        <a class="stamp-link" href="https://assets.pbwlove.com/stickers/373785633283506176/1773122628553_373785633283506176_0_2998b330d3a5.png" target="_blank" rel="noopener noreferrer">
+          <div class="stamp-card">
+            <img src="https://assets.pbwlove.com/stickers/373785633283506176/1773122628553_373785633283506176_0_2998b330d3a5.png" alt="諦めたらそこで試合終了ですよ(リリーベル・リボングラッセ)" loading="lazy">
+            <div class="stamp-name">諦めたらそこで試合終了ですよ(リリーベル・リボングラッセ)</div>
+          </div>
+        </a>
+      
+        <a class="stamp-link" href="https://assets.pbwlove.com/stickers/373785633283506176/1773122637164_373785633283506176_0_139d9b918fdd.png" target="_blank" rel="noopener noreferrer">
+          <div class="stamp-card">
+            <img src="https://assets.pbwlove.com/stickers/373785633283506176/1773122637164_373785633283506176_0_139d9b918fdd.png" alt="闇市倍プッシュお嬢様（フロラ）" loading="lazy">
+            <div class="stamp-name">闇市倍プッシュお嬢様（フロラ）</div>
+          </div>
+        </a>
+      
+        <a class="stamp-link" href="https://assets.pbwlove.com/stickers/473440572372156425/1773122632991_473440572372156425_0_e4f69ad4a6ff.png" target="_blank" rel="noopener noreferrer">
+          <div class="stamp-card">
+            <img src="https://assets.pbwlove.com/stickers/473440572372156425/1773122632991_473440572372156425_0_e4f69ad4a6ff.png" alt="駄目だわ！" loading="lazy">
+            <div class="stamp-name">駄目だわ！</div>
+          </div>
+        </a>
+      
+</div>
         </body>
       </html>
     
